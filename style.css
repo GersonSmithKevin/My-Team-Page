@@ -12,6 +12,11 @@ p {
   font-size: clamp(10px, 2vw, 14px);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
 .mirrow {
   display: flex;
   border: 2px solid black;
