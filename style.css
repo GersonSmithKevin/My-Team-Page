@@ -1,0 +1,13 @@
+h1 {
+  padding-top: 20px;
+  font-size: clamp(25px, 4.5vw, 35px);
+
+}
+
+h2 {
+  font-size: clamp(14px, 3.5vw, 20px);
+}
+
+p {
+  font-size: clamp(10px, 2vw, 14px);
+}
