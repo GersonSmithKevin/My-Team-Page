@@ -1,15 +1,17 @@
 h1 {
   padding-top: 20px;
   font-size: clamp(25px, 4.5vw, 35px);
-
+  height: 50%;
 }
 
-h2 {
+strong {
   font-size: clamp(14px, 3.5vw, 20px);
+  height: 25%;
 }
 
 p {
   font-size: clamp(10px, 2vw, 14px);
+  height: 25%;
 }
 
 .attribution {
@@ -26,6 +28,7 @@ p {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
+
 }
 
 .perfil {
@@ -41,6 +44,8 @@ p {
   flex-flow: column wrap;
   align-items: flex-start;
   justify-content: space-between;
+
+
 }
 
 
@@ -73,5 +78,38 @@ img {
 .mirrow .perfil:nth-child(even) {
   margin-top: 40px;
   background-color: #f0f0f0;
+
+}
+
+@media (min-width: 376px) {
+
+  /* Otros estilos específicos para pantallas más grandes que 375px */
+  .cabecera {
+    display: flex;
+    border: 2px solid black;
+    width: clamp(300px, 95vw);
+    padding: auto;
+    margin: 20px;
+
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: flex-start;
+
+  }
+
+  .mirrow {
+    margin: 20px;
+  }
+
+  h1 {
+    height: 100%;
+    width: 50%;
+
+  }
+
+  p {
+    padding-top: 20px;
+    width: 30%;
+  }
 
 }
