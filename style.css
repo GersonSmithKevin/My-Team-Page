@@ -11,3 +11,62 @@ h2 {
 p {
   font-size: clamp(10px, 2vw, 14px);
 }
+
+.mirrow {
+  display: flex;
+  border: 2px solid black;
+  width: clamp(300px, 95vw);
+  padding: auto;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.perfil {
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 150px;
+  height: 210px;
+  text-align: center;
+  margin: 2px;
+
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+
+
+img {
+  height: 90%;
+
+  border: 2px solid rgb(68, 68, 110);
+
+}
+
+.name {
+  height: 5%;
+  font-size: clamp(10px, 10%, 14px);
+  border: 2px solid rgb(68, 68, 110);
+  margin-bottom: 1%;
+}
+
+.vertical {
+  transform: translateY(-50%) rotate(90deg);
+  transform-origin: left bottom;
+  font-size: 14px;
+  opacity: 0.5;
+
+}
+
+
+
+/* Estilos para los elementos pares dentro de .mirrow */
+.mirrow .perfil:nth-child(even) {
+  margin-top: 40px;
+  background-color: #f0f0f0;
+
+}
