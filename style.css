@@ -94,11 +94,6 @@ img {
     flex-flow: row wrap;
     justify-content: start;
     align-items: flex-start;
-
-  }
-
-  .mirrow {
-    margin: 20px;
   }
 
   h1 {
@@ -110,6 +105,76 @@ img {
   p {
     padding-top: 20px;
     width: 30%;
+  }
+
+  .mirrow {
+    margin: 20px;
+  }
+
+}
+
+@media (min-width: 520px) {
+
+
+  .perfil {
+    width: 200px;
+    height: 280px;
+  }
+
+  .name {
+    font-size: clamp(15px, 1vw, 20px);
+  }
+
+  .vertical {
+    font-size: clamp(15px, 1vw, 20px);
+
+  }
+
+
+}
+
+@media (min-width: 875px) {
+
+
+  .perfil {
+    width: 250px;
+    height: 350px;
+  }
+
+  .name {
+    font-size: clamp(20px, 1vw, 24px);
+  }
+
+  .vertical {
+    font-size: clamp(20px, 1vw, 24px);
+
+  }
+}
+
+@media (min-width: 1075px) {
+
+
+  .perfil {
+    width: 330px;
+    height: 462px;
+  }
+
+}
+
+@media (min-width: 1300px) {
+
+
+  .perfil {
+    margin: 3vw;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+
+  .perfil {
+    margin: 5vw;
   }
 
 }
