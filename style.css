@@ -21,7 +21,7 @@ p {
 
 .mirrow {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: clamp(300px, 95vw);
   padding: auto;
   margin: 0 auto;
@@ -53,14 +53,14 @@ p {
 img {
   height: 90%;
 
-  border: 2px solid rgb(68, 68, 110);
+  /* border: 2px solid rgb(68, 68, 110); */
 
 }
 
 .name {
   height: 5%;
   font-size: clamp(10px, 10%, 14px);
-  border: 2px solid rgb(68, 68, 110);
+  /* border: 2px solid rgb(68, 68, 110); */
   margin-bottom: 1%;
 }
 
@@ -72,13 +72,8 @@ img {
 
 }
 
-
-
-/* Estilos para los elementos pares dentro de .mirrow */
 .mirrow .perfil:nth-child(even) {
   margin-top: 40px;
-  background-color: #f0f0f0;
-
 }
 
 @media (min-width: 376px) {
@@ -86,7 +81,6 @@ img {
   /* Otros estilos específicos para pantallas más grandes que 375px */
   .cabecera {
     display: flex;
-    border: 2px solid black;
     width: clamp(300px, 95vw);
     padding: auto;
     margin: 20px;
